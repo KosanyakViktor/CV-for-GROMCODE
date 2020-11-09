@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Source+Sans+Pro&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ECF9EE;
+    padding: 12px; 
+    max-width: 1330px;
+
+}
+.wrapper {
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.62); 
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.62);
+    padding-bottom: 50px;
+}
+.main {
+    display: grid;
+    grid-template-columns: minmax(auto,50%) minmax(auto,50%);
+}
+.main img {
+    width: 100%;
+}
+.name {
+    justify-self: center;
+    align-self: center;
+}
+.name h1 {
+    font-size: 5.9vw;
+    width:320px;
+    color: #14c8c8;
+    text-transform: uppercase;
+    font-family: 'Lalezar', cursive;
+    line-height: 65px;
+}
+.name p {
+    color: #112732;
+    font-size: 2.4vw;
+    text-transform: uppercase;
+    font-family: 'Lalezar', cursive;
+}
+.info {
+    -webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.48); 
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.48);
+    display: grid;
+    grid-template-columns: minmax(auto,30%) minmax(auto,70%);
+    grid-template-rows: minmax(auto,480px);
+    margin-left: 7%;
+    margin-right: 7%;
+
+}
+.aboutme {
+    border: solid rgb(86%, 86%, 86%, 0.5);
+    border-width: 0px 2px 0px 0px;
+}
+.aboutme img {
+    width: 100%;
+}
+.aboutme p {
+    padding-top: 23px;
+    font-size: 16px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border: solid rgb(86%, 86%, 86%, 0.5);
+    border-width: 2px 0px 0px 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.prof-skills {
+    padding: 77px 50px;
+}
+.prof-skills h3 {
+    font-family: 'Lalezar', cursive;
+}
+.figure {
+    background-color: #14c8c8;
+    width: 50px;
+    height: 18px;
+    border-radius: 8px 0px 40px 8px;
+    margin-top: 14px;
+}
+.table {
+    display: flex;   
+     margin-top: 30px;
+
+    justify-content: space-between;
+}
+.information-block p  {
+    margin-bottom: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.information-block {
+    width: 20%;
+}
+.information-block-dots {
+    margin-top: -8px;
+}
+.information-block-dots p {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(86%, 86%, 86%, 1);
+}
+.information-block-two {
+    width: 70%;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: -3px;
+}
+.pname {
+    padding-bottom: 17px;
+}
+.pskills {
+    padding-top: 17px;
+}
+.p {
+    border: solid rgb(86%, 86%, 86%, 0.5);
+    border-width: 1px 0px 1px 0px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.ptel {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
